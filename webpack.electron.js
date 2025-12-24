@@ -1,6 +1,7 @@
 const path = require('path');
 
 module.exports = {
+  mode: 'production',
   entry: path.resolve(__dirname, './electron/index.js'),
   output: {
     filename: 'index.js',
